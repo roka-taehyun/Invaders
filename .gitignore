@@ -2,6 +2,10 @@
 ## Eclipse
 #################
 
+
+gradle/
+.idea/
+
 *.pydevproject
 .project
 .metadata
@@ -169,3 +173,5 @@ pip-log.txt
 log*
 *.ttf
 .checkstyle
+# Ignore Gradle project-specific cache directory
+.gradle
