@@ -26,4 +26,10 @@ class BulletTest {
         assertEquals(5,a.getSpeed());
     }
 
+    @Test
+    @DisplayName("New Test Flase")
+    void getSpeedFalse2(){
+        assertEquals(4,a.getSpeed());
+    }
+
 }
